@@ -1,0 +1,19 @@
+{
+  "commands": {
+    "UpdateLock": {
+      "fileName": "dotnet",
+      "workingDirectory": ".",
+      "arguments": "restore --force-evaluate"
+    },
+    "GitAcceptAllPackageLocks": {
+      "fileName": "git",
+      "workingDirectory": ".",
+      "arguments": "add */packages.lock.json"
+    },
+    "ClearLocalNugetCaches": {
+      "fileName": "dotnet",
+      "workingDirectory": ".",
+      "arguments": "nuget locals all --clear"
+    }
+  }
+}

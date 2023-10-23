@@ -12,11 +12,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDigitalDiary.WebApi6", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution items", ".solution items", "{43F655E5-2260-46DA-A1FF-431829FB6841}"
 	ProjectSection(SolutionItems) = preProject
+		commands.json = commands.json
 		Directory.Build.props = Directory.Build.props
 		nuget.config = nuget.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDigitalDiary.WebApi7", "src\MyDigitalDiary.WebApi7\MyDigitalDiary.WebApi7.csproj", "{C89420D0-7B40-49E5-9FC1-FFAE7B267434}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDigitalDiary.WebApi7", "src\MyDigitalDiary.WebApi7\MyDigitalDiary.WebApi7.csproj", "{C89420D0-7B40-49E5-9FC1-FFAE7B267434}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
