@@ -1,7 +1,7 @@
 <Project>
 	<Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
 	<ItemGroup>
-		<PackageReference Include="Samyne.DigitalDiary.MemoryRepository" Version="1.0.0" />
-		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+		<PackageReference Include="Samyne.DigitalDiary.MemoryRepository" />
+		<PackageReference Include="Swashbuckle.AspNetCore" />
 	</ItemGroup>
 </Project>
