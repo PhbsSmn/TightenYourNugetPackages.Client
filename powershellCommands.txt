@@ -1,0 +1,2 @@
+dotnet tool install -g NuGet.PackageSourceMapper
+packagesourcemapper generate nuget.config
